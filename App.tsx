@@ -14,6 +14,11 @@ const newColorTheme = {
   error: {
     500: '#F23839',
   },
+  card: {
+    200: "#D28E5C", // Light Orange
+    300: "#383E42", // Light Black
+    400: "#D99E96", // Light Pink
+  }
 };
 const theme =  extendTheme({colors: newColorTheme})
 

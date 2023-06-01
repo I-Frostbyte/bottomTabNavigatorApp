@@ -1,6 +1,6 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {Home, Product, Purchase} from '../screens';
+import {Home, Product, Purchase, Transfer} from '../screens';
 
 const Stack = createNativeStackNavigator();
 const MainStack = () => {
@@ -23,6 +23,7 @@ const MainStack = () => {
         options={{headerShown: false}}
         component={Purchase}
       />
+      <Stack.Screen name="Transfer" options={{headerShown: false}} component={Transfer} />
     </Stack.Navigator>
   );
 };

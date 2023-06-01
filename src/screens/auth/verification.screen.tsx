@@ -64,6 +64,7 @@ const Verification = ({navigation}: any) => {
             padding: -20,
             marginTop: 20,
             marginRight: 15,
+            fontSize: 18,
           }}
           keyboardType="numeric"
         />
